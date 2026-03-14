@@ -34,20 +34,25 @@ local MainSection = MainTab:CreateSection("Versions")
 local 1 = MainTab:CreateButton({
    Name = "ICheat V1",
    Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/c2QAXbAZ"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealICheats/ICheatM/refs/heads/main/Script.lua", true))()
    end,
 })
 
 local 2 = MainTab:CreateButton({
    Name = "ICheat V2",
    Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/c2QAXbAZ"))()
+Rayfield:Notify({
+   Title = "ICheats",
+   Content = "ICheats V2 is comming soon!",
+   Duration = 6.5,
+   Image = 4483362458,
+})
    end,
 })
 
 local 3 = MainTab:CreateButton({
    Name = "ICheat PL",
    Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/c2QAXbAZ"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealICheats/ICheats-Pl/refs/heads/main/ICheatsPL.lua", true))()
    end,
 })
