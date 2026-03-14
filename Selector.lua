@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "",
       RememberJoins = true
    },
-   KeySystem = true,
+   KeySystem = false,
    KeySettings = {
       Title = "ICheat Selector",
       Subtitle = "Key System",
